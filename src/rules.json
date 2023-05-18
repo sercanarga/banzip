@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "regexFilter": "[\\w\\-]+\\.zip\\b",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

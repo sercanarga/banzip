@@ -1,0 +1,21 @@
+{
+  "name": "banzip",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "bans all potentially malicious zip extension domains.",
+  "icons": {
+    "16": "src/icons/icon16.png",
+    "48": "src/icons/icon48.png",
+    "128": "src/icons/icon128.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset",
+        "enabled": true,
+        "path": "src/rules.json"
+      }
+    ]
+  },
+  "permissions": ["declarativeNetRequest"]
+}
